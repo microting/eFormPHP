@@ -1,0 +1,13 @@
+/* (C) Vadim Romanko */
+html,a      {font:18px arial bold, tamota, helvetica neue; color:#777; background:#f0f0f0}
+body        {position: relative; margin: 0 auto; width:1000px;  height:1200px }        
+
+h1          {text-align:center;}
+form        {text-align:justify;}
+fieldset    {border-radius:10px;}
+lable       {width:48%; display:inline-block;}
+textarea    {width:100%;height:100px;}
+button      {border-radius:5px;}
+input       {width:75%;margin:0 10px;}
+.half       {width:46%;  display:inline-block;}
+.half textarea {height:100px;}

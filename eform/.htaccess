@@ -1,0 +1,6 @@
+AddDefaultCharset "UTF-8"
+RewriteEngine on
+RewriteCond $1 !(googleaea5743bc51e11e6|webstat/|index\.php|\.txt|\.css|\.png|\.ico|\.jpg|\.JPG|\.gif|\.js|images/)
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+

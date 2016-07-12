@@ -1,0 +1,70 @@
+<!doctype html>	
+<html>
+<head>
+	<title>Microting InSpection PHP expample</title>
+    <link href=main.css rel=stylesheet>	
+</head>
+</body>
+	<a href=..><h1>Microting InSpection PHP expample</h1></a>
+	<form method=post>
+		<fieldset>
+			<legend>Config (step 1)</legend>
+			<fieldset>
+				<legend>Site</legend> 	
+				<lable>Name <input name=SiteName value="<?=$SiteName?>"></lable>
+				<lable>Uuid <input name=SiteUuid value="<?=$SiteUuid?>"></lable>
+			</fieldset>
+			<fieldset>
+				<legend>User</legend>	
+				<lable>Name <input name=UserName value="<?=$UserName?>"></lable>
+				<lable>Uuid <input name=UserUuid value="<?=$UserUuid?>"></lable>
+			</fieldset>
+			<fieldset>
+				<legend>Server</legend>	
+				<lable>Token <input name=ServerToken value="<?=$ServerToken?>"></lable>	
+				<lable>Address <input name=ServerAddress value="<?=$ServerAddress?>"></lable>
+			</fieldset>
+			<fieldset>
+				<legend>Control</legend>	
+				<button formaction=?uri=button/save> Save as default </button> 
+				<button formaction=?uri=button/clear> Clear </button> 
+				<button formaction=?uri=button/generate_elements> Generate Elements</button> 
+				<button formaction=?uri=button/send> Send (step 3) </button> 
+				<button formaction=?uri=button/check> Check (step 5) </button> 
+				<button formaction=?uri=button/fetch> Fetch (step 7) </button>	
+				<button formaction=?uri=button/delete> Delete from Microting (step 9)</button> 
+				<button formaction=?uri=button/test_code> Custom test</button> 
+				<lable>ElementId <input name=ElementId value="<?=$ElementId?>"></lable>
+			</fieldset>
+		</fieldset>
+		<fieldset class=half>
+			<legend>XML to Microting (step 2)</legend>
+			<textarea name=Send><?=@$Send?></textarea>	
+		</fieldset>
+		<fieldset class=half>
+			<legend>Post response (step 4) </legend>
+			<textarea name=Post><?=@$Post?></textarea>
+		</fieldset>
+		<fieldset class=half>
+			<legend>Check response (step 6)</legend>
+			<textarea name=Check><?=@$Check?></textarea>
+		</fieldset>
+		<fieldset class=half>
+			<legend>Response XML from Microting (step 8)</legend>
+			<textarea name=Fetch><?=@$Fetch?></textarea>
+		</fieldset>
+		<fieldset class=half>
+			<legend>Delete from Microting (step 10)</legend>
+			<textarea name=DeleteResponse><?=@$DeleteResponse?></textarea>
+		</fieldset>
+		<fieldset class=half>
+			<legend>Test</legend>
+			<textarea name=Test><?=@$Test?></textarea>
+		</fieldset>
+		<fieldset>
+			<legend>About</legend>
+			(C) Microting, 2016                     
+		</fieldset>
+	</form>
+</body>
+<html>

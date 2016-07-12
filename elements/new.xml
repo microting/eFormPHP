@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Main xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>Check list 20</Id>
+  <Label>Check list</Label>
+  <Description>bla bla bla</Description>
+  <Repeated>1</Repeated>
+  <StartDate>2016-04-20</StartDate>
+  <EndDate>2017-04-20</EndDate>
+  <Language>en</Language>
+  <MultiApproval>true</MultiApproval>
+  <FastNavigation>false</FastNavigation>
+  <ManualSync>false</ManualSync>
+  <CheckListFolderName>Odense</CheckListFolderName>
+  <DownloadEnities>false</DownloadEnities>
+  <ElementList>
+    <Element type="DataElement">
+      <Id>check list colors</Id>
+      <Label>Check list colors</Label>
+      <Description>This is the description for the color fields</Description>
+      <ReviewEnabled>false</ReviewEnabled>
+      <ApprovedEnabled>false</ApprovedEnabled>
+      <DoneButtonEnabled>false</DoneButtonEnabled>
+      <ExtraFieldsEnabled>true</ExtraFieldsEnabled>
+      <DataItemList>
+        <DataItem type="single_select">
+          <KeyValuePairList>
+            <KeyValuePair>
+              <Key>1</Key>
+              <Value>option 1</Value>
+              <Selected>true</Selected>
+              <DisplayOrder>1</DisplayOrder>
+            </KeyValuePair>
+            <KeyValuePair>
+              <Key>2</Key>
+              <Value>option 2</Value>
+              <Selected>false</Selected>
+              <DisplayOrder>2</DisplayOrder>
+            </KeyValuePair>
+            <KeyValuePair>
+              <Key>3</Key>
+              <Value>option 3</Value>
+              <Selected>false</Selected>
+              <DisplayOrder>3</DisplayOrder>
+            </KeyValuePair>
+          </KeyValuePairList>
+          <Id>2</Id>
+          <Label>Single select search field</Label>
+          <Description>this is a description</Description>
+          <Mandatory>false</Mandatory>
+          <Color>e2f4fb</Color>
+        </DataItem>
+        <DataItem type="multi_select">
+          <KeyValuePairList>
+            <KeyValuePair>
+              <Key>1</Key>
+              <Value>option 1</Value>
+              <Selected>true</Selected>
+              <DisplayOrder>1</DisplayOrder>
+            </KeyValuePair>
+            <KeyValuePair>
+              <Key>2</Key>
+              <Value>option 2</Value>
+              <Selected>true</Selected>
+              <DisplayOrder>2</DisplayOrder>
+            </KeyValuePair>
+            <KeyValuePair>
+              <Key>3</Key>
+              <Value>option 3</Value>
+              <Selected>false</Selected>
+              <DisplayOrder>3</DisplayOrder>
+            </KeyValuePair>
+          </KeyValuePairList>
+          <Id>3</Id>
+          <Label>Multi select field</Label>
+          <Description>this is a description</Description>
+          <Mandatory>false</Mandatory>
+          <Color>e2f4fb</Color>
+        </DataItem>
+        <DataItem type="number">
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <DecimalCount>2</DecimalCount>
+          <UnitName/>
+          <Id>4</Id>
+          <Label>Number field</Label>
+          <Description>this is a description</Description>
+          <Mandatory>false</Mandatory>
+          <Color>e2f4fb</Color>
+        </DataItem>
+        <DataItem type="text">
+          <Value/>
+          <MaxLength>50</MaxLength>
+          <GeolocationEnabled>true</GeolocationEnabled>
+          <GeolocationForced>false</GeolocationForced>
+          <GeolocationHidden>false</GeolocationHidden>
+          <Id>5</Id>
+          <Label>Text field</Label>
+          <Description>this is a description</Description>
+          <Mandatory>false</Mandatory>
+          <Color>e2f4fb</Color>
+        </DataItem>
+        <DataItem type="comment">
+          <Value/>
+          <MaxLength>10000</MaxLength>
+          <SplitScreen>false</SplitScreen>
+          <Id>6</Id>
+          <Label>Comment field</Label>
+          <Description>this is a description</Description>
+          <Mandatory>false</Mandatory>
+        </DataItem>
+        <DataItem type="picture">
+          <Multi>1</Multi>
+          <Id>7</Id>
+          <Label>Picture field</Label>
+          <Description>this is a description</Description>
+          <Mandatory>false</Mandatory>
+        </DataItem>
+        <DataItem type="check_box">
+          <Value>false</Value>
+          <Selected>false</Selected>
+          <Id>8</Id>
+          <Label>Check box field</Label>
+          <Description>this is a description</Description>
+          <Mandatory>false</Mandatory>
+          <Color>ffe4e4</Color>
+        </DataItem>
+        <DataItem type="audio">
+          <Multi>1</Multi>
+          <Id>9</Id>
+          <Label>Audio field</Label>
+          <Description>this is a description</Description>
+          <Mandatory>false</Mandatory>
+          <Color>ffe4e4</Color>
+        </DataItem>
+        <DataItem type="date">
+          <Value>20.04.2016 8:52:12</Value>
+          <MinValue>20.04.2016 8:52:12</MinValue>
+          <MaxValue>20.04.2016 8:52:12</MaxValue>
+          <Id>11</Id>
+          <Label>Date field</Label>
+          <Description>this is a description</Description>
+          <Mandatory>false</Mandatory>
+          <Color>fff6df</Color>
+        </DataItem>
+        <DataItem type="none">
+          <ReadOnly>false</ReadOnly>
+          <Id>12</Id>
+          <Label>None field, only shows text</Label>
+          <Description>this is a description</Description>
+          <Mandatory>false</Mandatory>
+          <Color>f0f8db</Color>
+        </DataItem>
+        <DataItem type="timer">
+          <Id>13</Id>
+          <Label>Timer</Label>
+          <Description>this is a description</Description>
+          <Mandatory>false</Mandatory>
+          <Color>f0f8db</Color>
+        </DataItem>
+        <DataItem type="signature">
+          <Id>14</Id>
+          <Label>Signature</Label>
+          <Description>this is a description</Description>
+          <Mandatory>false</Mandatory>
+          <Color>f5eafa</Color>
+        </DataItem>
+      </DataItemList>
+    </Element>
+    <Element type="DataElement">
+      <Id>check list 1</Id>
+      <Label>Check list 1</Label>
+      <Description>this is the description 1</Description>
+      <ReviewEnabled>false</ReviewEnabled>
+      <ApprovedEnabled>false</ApprovedEnabled>
+      <DoneButtonEnabled>false</DoneButtonEnabled>
+      <ExtraFieldsEnabled>true</ExtraFieldsEnabled>
+      <DataItemList>
+        <DataItem type="single_select">
+          <KeyValuePairList>
+            <KeyValuePair>
+              <Key>1</Key>
+              <Value>option 1</Value>
+              <Selected>true</Selected>
+              <DisplayOrder>1</DisplayOrder>
+            </KeyValuePair>
+            <KeyValuePair>
+              <Key>2</Key>
+              <Value>option 2</Value>
+              <Selected>false</Selected>
+              <DisplayOrder>2</DisplayOrder>
+            </KeyValuePair>
+            <KeyValuePair>
+              <Key>3</Key>
+              <Value>option 3</Value>
+              <Selected>false</Selected>
+              <DisplayOrder>3</DisplayOrder>
+            </KeyValuePair>
+          </KeyValuePairList>
+          <Id>2</Id>
+          <Label>Single select search field</Label>
+          <Description>this is a description</Description>
+          <Mandatory>false</Mandatory>
+          <Color>e2f4fb</Color>
+        </DataItem>
+        <DataItem type="multi_select">
+          <KeyValuePairList>
+            <KeyValuePair>
+              <Key>1</Key>
+              <Value>option 1</Value>
+              <Selected>true</Selected>
+              <DisplayOrder>1</DisplayOrder>
+            </KeyValuePair>
+            <KeyValuePair>
+              <Key>2</Key>
+              <Value>option 2</Value>
+              <Selected>true</Selected>
+              <DisplayOrder>2</DisplayOrder>
+            </KeyValuePair>
+            <KeyValuePair>
+              <Key>3</Key>
+              <Value>option 3</Value>
+              <Selected>false</Selected>
+              <DisplayOrder>3</DisplayOrder>
+            </KeyValuePair>
+          </KeyValuePairList>
+          <Id>3</Id>
+          <Label>Multi select field</Label>
+          <Description>this is a description</Description>
+          <Mandatory>false</Mandatory>
+          <Color>e2f4fb</Color>
+        </DataItem>
+        <DataItem type="number">
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <DecimalCount>2</DecimalCount>
+          <UnitName/>
+          <Id>4</Id>
+          <Label>Number field</Label>
+          <Description>this is a description</Description>
+          <Mandatory>false</Mandatory>
+          <Color>e2f4fb</Color>
+        </DataItem>
+        <DataItem type="text">
+          <Value/>
+          <MaxLength>50</MaxLength>
+          <GeolocationEnabled>true</GeolocationEnabled>
+          <GeolocationForced>false</GeolocationForced>
+          <GeolocationHidden>false</GeolocationHidden>
+          <Id>5</Id>
+          <Label>Text field</Label>
+          <Description>this is a description</Description>
+          <Mandatory>false</Mandatory>
+          <Color>e2f4fb</Color>
+        </DataItem>
+        <DataItem type="comment">
+          <Value/>
+          <MaxLength>10000</MaxLength>
+          <SplitScreen>false</SplitScreen>
+          <Id>6</Id>
+          <Label>Comment field</Label>
+          <Description>this is a description</Description>
+          <Mandatory>false</Mandatory>
+        </DataItem>
+        <DataItem type="picture">
+          <Multi>1</Multi>
+          <Id>7</Id>
+          <Label>Picture field</Label>
+          <Description>this is a description</Description>
+          <Mandatory>false</Mandatory>
+        </DataItem>
+        <DataItem type="check_box">
+          <Value>false</Value>
+          <Selected>false</Selected>
+          <Id>8</Id>
+          <Label>Check box field</Label>
+          <Description>this is a description</Description>
+          <Mandatory>false</Mandatory>
+          <Color>ffe4e4</Color>
+        </DataItem>
+        <DataItem type="audio">
+          <Multi>1</Multi>
+          <Id>9</Id>
+          <Label>Audio field</Label>
+          <Description>this is a description</Description>
+          <Mandatory>false</Mandatory>
+          <Color>ffe4e4</Color>
+        </DataItem>
+        <DataItem type="date">
+          <Value>20.04.2016 8:52:12</Value>
+          <MinValue>20.04.2016 8:52:12</MinValue>
+          <MaxValue>20.04.2016 8:52:12</MaxValue>
+          <Id>11</Id>
+          <Label>Date field</Label>
+          <Description>this is a description</Description>
+          <Mandatory>false</Mandatory>
+          <Color>fff6df</Color>
+        </DataItem>
+        <DataItem type="none">
+          <ReadOnly>false</ReadOnly>
+          <Id>12</Id>
+          <Label>None field, only shows text</Label>
+          <Description>this is a description</Description>
+          <Mandatory>false</Mandatory>
+          <Color>f0f8db</Color>
+        </DataItem>
+        <DataItem type="timer">
+          <Id>13</Id>
+          <Label>Timer</Label>
+          <Description>this is a description</Description>
+          <Mandatory>false</Mandatory>
+          <Color>f0f8db</Color>
+        </DataItem>
+        <DataItem type="signature">
+          <Id>14</Id>
+          <Label>Signature</Label>
+          <Description>this is a description</Description>
+          <Mandatory>false</Mandatory>
+          <Color>f5eafa</Color>
+        </DataItem>
+      </DataItemList>
+    </Element>
+  </ElementList>
+</Main>
