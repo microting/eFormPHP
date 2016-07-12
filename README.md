@@ -1,4 +1,4 @@
-# eFormPHP Library and example [![Build Status](https://travis-ci.org/microting/eFormPHP.png)](https://travis-ci.org/microting/eFormPHP)
+# eFormPHP Library and example - Beta [![Build Status](https://travis-ci.org/microting/eFormPHP.png)](https://travis-ci.org/microting/eFormPHP)
 
 PHP EXAMPLE CODE TO COMMUNICATE WITH MICROTING EFORM API
 ================================================================
